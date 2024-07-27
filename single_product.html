@@ -1,0 +1,827 @@
+<html>
+  <head>
+    <title>Single Product Page</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kurale&family=Spectral:ital,wght@0,200;
+      0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,
+      800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <!--Header-->
+      <div class="header-css">
+        <div class="header">
+          <div class="container content-space">
+            <!-- left part -->
+            <div class="flex-item gap-15 align-items-center">
+              <!--logo-->
+              <a href="index.html">
+                <img src="images/logo.png" />
+              </a>
+
+              <!--links-->
+              <ul class="menu gap-10">
+                <!--menu 1-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    ELECTRIC
+                    <img src="images/arrow-down.png" class="down-arrow" />
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="products.html">ELECTRIC 1</a>
+                    <a href="#">ELECTRIC 2</a>
+                    <a href="#">ELECTRIC 3</a>
+                    <a href="#">ELECTRIC 4</a>
+                  </div>
+                </div>
+
+                <!--menu 2-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    CITY <img src="images/arrow-down.png" class="down-arrow" />
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="cities.html">Valsad</a>
+                    <a href="#">Surat</a>
+                    <a href="#">Rajkot</a>
+                    <a href="#">Baroda</a>
+                  </div>
+                </div>
+
+                <!--menu 3-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    KIDS<img src="images/arrow-down.png" class="down-arrow" />
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">For 3 to 5 Years</a>
+                    <a href="#">For 6 to 8 Years</a>
+                    <a href="#">For 9 to 12 Years</a>
+                  </div>
+                </div>
+
+                <li class="items common-font">
+                  <a href="#">ACCESSORIES</a>
+                </li>
+
+                <li class="items common-font">
+                  <a href="about_us.html">STORES</a>
+                </li>
+
+                <!--menu 4-->
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    LEASING<img
+                      src="images/arrow-down.png"
+                      class="down-arrow"
+                    />
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">VALSAD SHOP </a>
+                    <a href="#">SURAT SHOP </a>
+                    <a href="#">RAJKOT SHOP </a>
+                    <a href="#">BARODA SHOP </a>
+                  </div>
+                </div>
+              </ul>
+            </div>
+
+            <!-- right part -->
+            <div class="flex-item gap-20 align-items-center">
+              <a href="#" class="text-dec"><img src="images/internet.png" /></a>
+              <a href="#" class="text-dec user"
+                ><img src="images/user.png"
+              /></a>
+              <a href="#" class="text-dec"><img src="images/store.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- user details -->
+      <div class="user_detail">
+        <div class="flex-item gap-15 align-items-center">
+          <div>
+            <img src="images/customer1.png" />
+          </div>
+          <div class="flex gap-15">
+            <h3 class="margin-0">Alex Bass</h3>
+            <a href="index.html" class="text-dec">Log Out</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- content 1 -->
+      <div class="width flex-item">
+        <!-- display slider -->
+        <div class="width-50 flex-item align-items-center">
+          <button class="prev-btn" style="margin-right: -35px; z-index: 1">
+            <img src="images/left-arrow.png" />
+          </button>
+          <div class="flex-item display-slider width">
+            <div><img src="images/sp-display.png" /></div>
+            <div><img src="images/sp-display.png" /></div>
+          </div>
+        </div>
+
+        <!-- bike description -->
+        <div class="padding-80 flex gap-20 width">
+          <!-- item 1 -->
+          <div class="flex-item content-space hr-bottom">
+            <div><img src="images/single-product-logo.png" /></div>
+            <h2 class="margin-0">€ 3.299</h2>
+          </div>
+
+          <!-- item 2 -->
+          <div class="width hr-bottom">
+            <div class="flex-item gap-20">
+              <!-- sub item 1 -->
+              <div class="flex gap-20">
+                <div><img src="images/cycle-small-view.png" /></div>
+                <div class="flex-item gap-10">
+                  <h6 class="margin-0 font-12">Electric Ace</h6>
+                  <sup>Two</sup>
+                </div>
+              </div>
+
+              <!-- sub item 2 -->
+              <div class="flex gap-20">
+                <div><img src="images/cycle-small-border-view.png" /></div>
+                <div class="flex-item gap-10">
+                  <h6 class="margin-0 font-12">Electric lvy</h6>
+                  <sup>Two</sup>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 3 -->
+          <div class="flex gap-10 hr-bottom">
+            <h6 class="margin-0 font-14">Ivy Two Matte Black</h6>
+            <div><img src="images/color optn 3.png" /></div>
+          </div>
+
+          <!-- item 4 -->
+          <div class="flex hr-bottom gap-30">
+            <!-- item 1 -->
+            <div class="flex-item align-items-center">
+              <button class="discover-btn interest-free-btn">
+                3 interest-free payments with
+              </button>
+              <div><img src="images/klarna logo.png" /></div>
+            </div>
+
+            <!-- item 2 -->
+            <p class="margin-0 font-12">
+              The Ivy Two is a step-through frame electric bike combining
+              design, advanced<br />
+              technology, and safety features. Rider height: between 164 and
+              184cm.
+            </p>
+
+            <!-- bike specifications -->
+            <div class="dropdown">
+              <button
+                class="specification-btn width-f flex-item align-items-center dropbtn gap-15"
+              >
+                Scroll to Specifications
+                <img src="images/arrow-down.png" />
+              </button>
+              <div class="dropdown-content">
+                <p>Dual Sport</p>
+                <p>V-twin Motors</p>
+                <p>Four-Stoke Engine</p>
+              </div>
+            </div>
+
+            <!-- customise btn -->
+            <button class="customise-btn font-12">Customise now</button>
+          </div>
+
+          <!-- item 5 -->
+          <p class="margin-0 font-14">
+            Shipping to the Netherlands, Belgium & Germany only.<br />
+            Delivery time: 5-15 business days
+          </p>
+        </div>
+      </div>
+
+      <!-- content 2 -->
+      <div class="battery-bg">
+        <div class="container">
+          <div
+            class="flex gap-15 inner-text"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <h1 class="margin-0 white-text font-70">
+              Removable long-<br />
+              range battery
+            </h1>
+            <p class="margin-0 white-text font-14">
+              Recharge anytime, anywhere. Our in-house developed battery is<br />
+              built to go the distance. With a powerful 540 Wh and an
+              impressive<br />
+              range of up to 120km, you'll have the freedom to explore
+              without<br />
+              worrying about running out of power. And if you do need to<br />
+              recharge, our removable and smart battery pack can be easily<br />
+              detached and charged with any electrical outlet.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- content 3 -->
+      <div class="flex width">
+        <!-- item 1 -->
+        <div class="flex-item align-items-center">
+          <!--left-->
+          <div class="width-50 container padding-80">
+            <div
+              class="margin-lr-auto flex gap-15"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <h1 class="margin-0 font-50">Ivy Two</h1>
+              <p class="margin-0 font-14 light-gray-text">
+                Introducing the Ivy Two, the electric bike that takes your<br />
+                daily commute to the next level. With an accessible<br />
+                lower frame, the latest technology, and safety features,<br />
+                the Ivy delivers instant power, convenience, and peace<br />
+                of mind at every turn, making it the go-to bike for any<br />
+                commute. Equipped with a bright LED brake light for<br />
+                enhanced visibility and safety tracking for added<br />
+                security, the Ivy Two is the perfect combination of<br />
+                design, technology, and safety.
+              </p>
+            </div>
+          </div>
+
+          <!--right-->
+          <div class="width-50">
+            <img class="width" src="images/sp-img-1.png" />
+          </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="flex-item align-items-center">
+          <!--left-->
+          <div class="width-50">
+            <img class="width" src="images/motor.png" />
+          </div>
+
+          <!--right-->
+          <div class="width-50 container padding-80">
+            <div
+              class="margin-lr-auto flex gap-15"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <h1 class="margin-0 font-50">
+                Silent and<br />
+                powerful mid-<br />
+                motor
+              </h1>
+              <p class="margin-0 font-14 light-gray-text">
+                Natural and powerful. The 65Nm torque mid-engine<br />
+                gives you all the power you need. Because the engine is<br />
+                directly connected to your pedals, it automatically<br />
+                adjusts its power to your torque instead of speed. This<br />
+                gives you the most natural electric biking experience<br />
+                there is.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- content 4 -->
+      <div class="display-bg">
+        <div class="container">
+          <div
+            class="flex gap-15 inner-text"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <h1 class="margin-0 white-text font-70">Built-in display</h1>
+            <p class="margin-0 white-text font-14">
+              Discover a new level of convenience and<br />
+              control with our elegantly designed<br />
+              integrated display. Everything you need to<br />
+              manage your ride is right at your fingertips,<br />
+              from customizing your bike's settings to<br />
+              navigating unfamiliar parts of the city. And<br />
+              with seamless integration to our app, you can<br />
+              access all your data and ride information with<br />
+              ease.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- content 5 -->
+      <div class="flex width">
+        <!-- item 1 -->
+        <div class="flex-item align-items-center">
+          <!--left-->
+          <div class="width-50 container padding-80">
+            <div
+              class="margin-lr-auto flex gap-15"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <h1 class="margin-0 font-50">
+                Enviolo®<br />
+                automated<br />
+                gears
+              </h1>
+              <p class="margin-0 font-14 light-gray-text">
+                Never think about shifting gears again. The Enviolo®<br />
+                gear system takes automated gear-shifting to the next<br />
+                level, delivering the ultimate ride experience every time.<br />
+                This advanced technology effortlessly shifts gears to<br />
+                optimize performance, delivering a natural and<br />
+                effortless ride. Say goodbye to clunky gear changes<br />
+                and hello to a ride that's both easy and efficient.
+              </p>
+            </div>
+          </div>
+
+          <!--right-->
+          <div class="width-50">
+            <img class="width" src="images/gears.png" />
+          </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="flex-item align-items-center">
+          <!--left-->
+          <div class="width-50">
+            <img class="width" src="images/belt-drive-img.png" />
+          </div>
+
+          <!--right-->
+          <div class="width-50 container padding-80">
+            <div
+              class="margin-lr-auto flex gap-15"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <h1 class="margin-0 font-50">
+                Gates®<br />
+                belt drive
+              </h1>
+              <p class="margin-0 font-14 light-gray-text">
+                The Gates Carbon Belt drive is a game-changer. Made<br />
+                from premium quality carbon, it offers unmatched<br />
+                durability and strength. And the best part? You'll never<br />
+                have to worry about oiling your chain again. With our<br />
+                carbon belt, you'll enjoy a seamless, hassle-free biking<br />
+                experience that requires no maintenance for up to<br />
+                30,000 kilometers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- item 3 -->
+        <div class="flex-item align-items-center">
+          <!--left-->
+          <div class="width-50 container padding-80">
+            <div
+              class="margin-lr-auto flex gap-15"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <h1 class="margin-0 font-50">LED brake light</h1>
+              <p class="margin-0 font-14 light-gray-text">
+                When commuting, safety is priority. We acknowledge<br />
+                the significance of being alert and responsive on the<br />
+                road. That's why we created our brake light to activate<br />
+                instantly and illuminate brightly upon pressing the<br />
+                brakes. This feature guarantees that other drivers and<br />
+                commuters are immediately notified of your intention to<br />
+                slow down or come to a complete stop, ensuring your<br />
+                safety on the road.
+              </p>
+            </div>
+          </div>
+
+          <!--right-->
+          <div class="width-50">
+            <img class="width" src="images/break-light.png" />
+          </div>
+        </div>
+      </div>
+
+      <!-- content 6 -->
+      <div class="precision-light-bg">
+        <div class="container">
+          <div
+            class="flex gap-15 inner-text"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <h1 class="margin-0 white-text font-70">
+              Osram®<br />
+              precision light
+            </h1>
+            <p class="margin-0 white-text font-14">
+              Safety is fundamental when it comes to<br />
+              biking. We've designed the precision front<br />
+              light with precision and clarity in mind. From<br />
+              dark roads to challenging city terrain, the<br />
+              precision front light, with its strong beam, is<br />
+              designed to help you navigate with ease and<br />
+              safety. No matter the environment, we make<br />
+              sure we provide you with the visibility you<br />
+              need.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- content 7 -->
+      <div class="padding-80">
+        <div class="container align-items-center content-space">
+          <!-- item 1 -->
+          <div><img src="images/break.png" /></div>
+
+          <!-- item 2 -->
+          <div class="flex gap-15" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="margin-0 font-50">Safety tracking</h1>
+            <p class="margin-0 font-14">
+              The Electric Two comes with safety tracking. In case you find<br />
+              yourself in an uncertain situation, simply press the button on
+              your<br />
+              handlebar to alert your loved ones of your live location and
+              feel<br />
+              more secure.
+            </p>
+            <p class="margin-0 font-14">
+              Whether you're commuting in the city or exploring the
+              countryside,<br />
+              you can have peace of mind knowing that notifying is just a
+              button<br />
+              press away. Moreover, the tracking feature automatically<br />
+              deactivates after an hour, allowing you to enjoy your rides
+              with<br />
+              complete privacy and security.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- content 8 -->
+      <div class="padding-80">
+        <div class="container align-items-center content-space">
+          <!-- item 1 -->
+          <div class="flex gap-15" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="margin-0 font-50">
+              Shimano®<br />
+              hydraulic<br />
+              discbrakes
+            </h1>
+            <p class="margin-0 font-14">
+              The Shimano® discbrakes are premium hydraulic disc brakes<br />
+              designed to deliver lightning-fast stopping power, so you can
+              ride<br />
+              with complete confidence and control. Rest assured, you'll feel
+              the<br />
+              difference in the moments you need it most.
+            </p>
+          </div>
+
+          <!-- item 2 -->
+          <div><img src="images/discbrake.png" /></div>
+        </div>
+      </div>
+
+      <!-- content 9 -->
+      <div class="padding-80">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
+          <img class="margin-lr-auto" src="images/Bike-highlights.png" />
+        </div>
+      </div>
+
+      <!-- content 10 -->
+      <div class="padding-top-80 flex margin-lr-auto gap-80">
+        <div>
+          <h1 class="margin-0 font-50">All in the details.</h1>
+        </div>
+        <div class="flex-item inner-margin content-space">
+          <!-- item 1 -->
+          <div class="flex gap-20">
+            <h3 class="margin-0">Frame</h3>
+            <div class="flex inner-margin gap-20">
+              <!-- sub item 1 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Frame</h6>
+                <p class="margin-0 font-16">
+                  Coated aluminium with integrated battery case
+                </p>
+              </div>
+
+              <!-- sub item 2 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Paint</h6>
+                <p class="margin-0 font-16">PPG Powder Coating 2K</p>
+              </div>
+
+              <!-- sub item 3 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Weight</h6>
+                <p class="margin-0 font-16">
+                  Frame 26 kg<br />
+                  Battery 3 kg
+                </p>
+              </div>
+
+              <!-- sub item 4 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Rider Height</h6>
+                <p class="margin-0 font-16">
+                  164-184cm<br /><br /><br />
+                  Your bike comes 85% assembled.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="flex gap-20">
+            <h3 class="margin-0">Components</h3>
+            <div class="flex inner-margin gap-20">
+              <!-- sub item 1 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Motor</h6>
+                <p class="margin-0 font-16">
+                  Bafang® 36v 250W / Torq + Rotation Sensor w/ a<br />
+                  maximum torque of 65 Nm
+                </p>
+              </div>
+
+              <!-- sub item 2 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Battery</h6>
+                <p class="margin-0 font-16">
+                  Removable Smart Battery / 36Vdc, 540 WH<br />
+                  60-120 km range
+                </p>
+              </div>
+
+              <!-- sub item 3 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Gears</h6>
+                <p class="margin-0 font-16">
+                  Enviolo® TR / Pro 44T Stepless Automatic Shifting /<br />
+                  Ratio 310%
+                </p>
+              </div>
+
+              <!-- sub item 4 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Display</h6>
+                <p class="margin-0 font-16">Veloretti built-in display</p>
+              </div>
+
+              <!-- sub item 5 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Brakes</h6>
+                <p class="margin-0 font-16">
+                  Shimano® MT200 hydraulic disc brakes
+                </p>
+              </div>
+
+              <!-- sub item 6 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Tires</h6>
+                <p class="margin-0 font-16">
+                  Performance Plus tire / 50-622 / Anti Puncture level<br />
+                  2
+                </p>
+              </div>
+
+              <!-- sub item 7 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Belt</h6>
+                <p class="margin-0 font-16">
+                  Gates® Carbon Beltdrive / 122T CDX
+                </p>
+              </div>
+
+              <!-- sub item 8 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Light front</h6>
+                <p class="margin-0 font-16">
+                  Osram® Precision front light LED, StVZO approved
+                </p>
+              </div>
+
+              <!-- sub item 9 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Light rear</h6>
+                <p class="margin-0 font-16">COB Hyperbolic LED</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 3 -->
+          <div class="flex gap-20">
+            <h3 class="margin-0">Accessories</h3>
+            <div class="flex inner-margin gap-20">
+              <!-- sub item 1 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Abus plug</h6>
+                <p class="margin-0 font-16">In-chain lock 140 cm</p>
+              </div>
+
+              <!-- sub item 2 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Front carrier</h6>
+                <p class="margin-0 font-16">
+                  AVS front carrier 480g<br />
+                  Carrying Capacity: 10 kg (22 lb)
+                </p>
+              </div>
+
+              <!-- sub item 3 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Rear carrier</h6>
+                <p class="margin-0 font-16">TBA</p>
+              </div>
+
+              <!-- sub item 4 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Basket</h6>
+                <p class="margin-0 font-16">
+                  AVS basket 1.33kg<br />
+                  Carrying Capacity: 10 kg (22 lb)
+                </p>
+              </div>
+
+              <!-- sub item 5 -->
+              <div class="flex gap-10">
+                <h6 class="margin-0 font-16">Cargo basket</h6>
+                <p class="margin-0 font-16">
+                  AVS cargo basket 1.7kg<br />
+                  Carrying Capacity: 10 kg (22 lb)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="width-f flex-item gap-20 download-btn align-items-center"
+        >
+          <img src="images/download-icon.png" />Download Full Specifications
+        </button>
+      </div>
+
+      <!-- content 11 -->
+      <div class="gray-img-bg">
+        <div class="container">
+          <div class="flex-item gap-80 margin-lr-auto">
+            <p class="margin-0 font-16 white-text">
+              Ready to take the Electric Ivy or Ace for a spin? Electric test
+              rides are now available in<br />
+              Amsterdam, Amstelveen, Abcoude, Bussum, Den Haag, Nijmegen, Weesp,
+              Wormerveer,<br />
+              Berlin, Hamburg and Munich. Schedule your test ride now and we'll
+              see you there.
+            </p>
+
+            <button class="book-btn discover-btn">BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="padding-80 black-bg">
+        <div class="container content-space">
+          <!--Coloumn 1-->
+          <div class="flex gap-30">
+            <p class="margin-0 font-20 white-text">Explorer</p>
+            <!--links-->
+            <div class="footer-menu flex gap-10">
+              <a href="#">Electric bikes</a>
+              <a href="#">City bikes</a>
+              <a href="#">Kids' bikes</a>
+              <a href="#">Accessories</a>
+              <a href="#">Outlet</a>
+              <a href="#">Business</a>
+              <a href="#">Insurance Electric</a>
+              <a href="#">Size guide</a>
+            </div>
+          </div>
+
+          <!--Coloumn 2-->
+          <div class="flex gap-30">
+            <p class="margin-0 font-20 white-text">About</p>
+            <!--links-->
+            <div class="footer-menu flex gap-10">
+              <a href="#">About us</a>
+              <a href="#">Journal</a>
+              <a href="#">Reviews</a>
+              <a href="#">Press</a>
+              <a href="#">Jobs</a>
+            </div>
+          </div>
+
+          <!--Coloumn 3-->
+          <div class="flex gap-30">
+            <p class="margin-0 font-20 white-text">Help</p>
+            <!--links-->
+            <div class="footer-menu flex gap-10">
+              <a href="#">Contact</a>
+              <a href="#">FAQ</a>
+              <a href="#">Delivery</a>
+              <a href="#">Assembly & manuals</a>
+              <a href="#">Payment options</a>
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & conditions</a>
+            </div>
+          </div>
+
+          <!--Coloumn 4-->
+          <div class="flex gap-50">
+            <!-- content 1 -->
+            <div class="flex-item content-space">
+              <div class="flex gap-20">
+                <p class="margin-0 font-20 white-text">Join a ride</p>
+                <p class="margin-0 font-20 white-text">
+                  Sign up for our newsletter.
+                </p>
+              </div>
+            </div>
+
+            <!-- content 2 -->
+            <div class="flex gap-20">
+              <!-- item 1 -->
+              <div class="input-div flex-item align-items-center content-space">
+                <input
+                  type="email"
+                  placeholder="Enter your email address here"
+                />
+                <button class="subscribe-btn discover-btn">Subscribe</button>
+              </div>
+
+              <!-- item 2 -->
+              <label class="checkbox"
+                >By signing up, I agree to the <u>privacy policy</u> of
+                Veloretti.
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <!-- content 3 -->
+            <div class="social-media">
+              <a href="www.facebook.com"><img src="images/fb.png" /></a>
+              <a href="www.instagram.com"><img src="images/insta.png" /></a>
+              <a href="www.youtube.com"><img src="images/youtube.png" /></a>
+              <a href="www.linkedin.com"><img src="images/linkedin.png" /></a>
+              <a href="www.spotify.com"><img src="images/music.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- scroll to top -->
+      <button class="scroll-btn" title="scroll-top">
+        <span class="arrow-up"></span>
+      </button>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <!-- Initialize AOS library -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
